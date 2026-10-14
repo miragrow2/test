@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fdfdfd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.emoji-options button {
+  font-size: 2em;
+  margin: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.emoji-options button:hover {
+  transform: scale(1.2);
+}
+
+.questions {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.input-area {
+  margin-top: 15px;
+}
+
+.input-area input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.summary {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.weekly {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.quote {
+  margin-top: 30px;
+  font-style: italic;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.4em;
+  }
+  .emoji-options button {
+    font-size: 1.5em;
+  }
+}
